@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>Patient Register Form</title>    
+    </head>
+    <body>
+        <div>
+            <h1>Patient Registration Form</h1>
+            <div><p>Please Fill this form to Register Patient Details</p></div>
+            <form name="Patient-Details" id="Patient-Details">
+               <div> <label for="First Name"><b>First Name</b></label>
+                <input type="text" placeholder="Enter First Name" id="First Name">
+               </div>
+                <div><label for="Last Name"><b>Last Name</b></label>
+                <input type="text" placeholder="Enter Last Name" id="Last Name">
+            </div>
+        <div>
+            <label for="email"><b>Email</b></label>
+                <input type="text" placeholder="Enter Email" name="email" id="email" >
+            </div>
+            <div>
+                <label for="Address"><b>Address</b></label> 
+                <input type="text" placeholder="Enter Address" name="address" id="address" >
+            </div>
+            <label for="phone number"><b>Phone Number</b></label>
+            <input type="tel" id="phone number" name="phone number">
+            <div>
+                <label for="DOB"><b>DOB</b></label>
+                <input type="date" id="dob" name="dob">
+                <br>
+
+            </div>
+            <div>
+            <label for="Age"><b>Age</b></label>
+            <input type="number" id="Age" name="age" min="0" max="100">
+            <br>
+            </div>
+            <div>
+                <label><b>Allergies</b></label>
+                <input type="checkbox" name="allergies" value="Allergy1" id="allergy1">Allergy1
+                <input type="checkbox" name="allergies" value="Allergy2" id="allergy2">Allergy2
+                <input type="checkbox" name="allergies" value="Allergy3" id="allergy3">Allergy
+            </div>
+            <div>
+                <label><b>Relationship to Patient</label>
+                <input type="checkbox" name="self" value="self" id="self">self
+                <input type="checkbox" name="Spouse" value="Spouse" id="Spouse">Spouse
+                <input type="checkbox" name="Parent" value="Parent" id="Parent">Parent
+                <input type="checkbox" name="Other" value="Other" id="Other">Other
+            </div>
+            <div>
+                <label for="Name"><b>Name</b></label>
+                <input type="text" id="Name">
+                </div>
+                <div>
+                <label for="Address"><b>Address</b></label> 
+                <input type="text" placeholder="Enter Address" name="address" id="address" >
+            </div>
+            <div>
+
+            </div>
+                <label for="phone number"><b>Phone Number</b></label>
+                <input type="tel" id="phone number" name="phone number">
+                <div>
+
+            </div>
+            <div>
+                <label><b>Payment</b></label>
+                <input type="radio" name="payment" value="Online" id="onlinepayment">Online Payment
+                <input type="radio" name="payment" value="Cash" id="cashatcounter">Cash At Counter
+                
+            </div>
+            <div>
+                <textarea name="Purpose of visit" form="Patient-Details" rows="4" cols="50">Enter the Purpose of Visit</textarea>
+            </div>
+
+
+            <button style="height:50px;width:100px"><b><h2>Register</h2></b></button>
+
+            </form>
+        </div>
+    </body>
